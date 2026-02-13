@@ -1,0 +1,46 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "paper",
+      "points": [
+        [
+          4.333333333333343,
+          27.000000000000007
+        ],
+        [
+          308.2222222222223,
+          380.8888888888889
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          507.66666666666674,
+          118.66666666666669
+        ],
+        [
+          323.1320754716981,
+          383.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "paper_113.jpg",
+  "imageData": null,
+  "imageHeight": 384,
+  "imageWidth": 512
+}
