@@ -1,0 +1,64 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          134.79299363057322,
+          54.55732484076433
+        ],
+        [
+          239.88853503184708,
+          152.328025477707
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          71.73566878980891,
+          40.86305732484076
+        ],
+        [
+          159.63375796178343,
+          118.2515923566879
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          32.88216560509554,
+          69.52547770700637
+        ],
+        [
+          120.78025477707006,
+          149.78025477707007
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_233.jpg",
+  "imageData": null,
+  "imageHeight": 183,
+  "imageWidth": 275
+}
