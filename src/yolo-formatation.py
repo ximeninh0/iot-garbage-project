@@ -2,7 +2,6 @@ import os
 import shutil
 from utils.Colors import Colors
 import json
-import cv2
 import random
 
 DIR = "data/raw_dataset"
@@ -74,25 +73,32 @@ def convert_jsons_to_txts(LABELS_DIR):
 
             if shape['shape_type'] != 'rectangle':
                 points = convert_segmentation_to_bbx(points)
-
-            # Processamento e verificação de cada ponto
-            for point in points:
-                x_raw, y_raw = point[0], point[1]
-
-                # Se for negativo e muito próximo de zero, força a ser 0
-                if x_raw < 0 and abs(x_raw) < TOLERANCE:
-                    x_raw = 0.0
-                if y_raw < 0 and abs(y_raw) < TOLERANCE:
-                    y_raw = 0.0
-                
-                # Verifica se o ponto está fora dos limites (após o tratamento de zero)
-                if x_raw < 0 or x_raw > width or y_raw < 0 or y_raw > height:
-                    Colors.error(f"Ponto fora da imagem: [{x_raw:.6f}, {y_raw:.6f}] em {filename}. IGNORANDO SHAPE.")
-                    is_valid_shape = False
-                    break # Sai do loop de pontos, pois a shape é inválida
-
-                normalized_points.append((x_raw / width, y_raw / height))
             
+            if points[0][0] < 0 and abs(points[0][0]) < TOLERANCE:
+                points[0][0] = 0.0
+            if points[0][1] < 0 and abs(points[0][1]) < TOLERANCE:
+                points[0][1] = 0.0
+            if points[1][0] < 0 and abs(points[1][0]) < TOLERANCE:
+                points[1][0] = 0.0
+            if points[1][1] < 0 and abs(points[1][1]) < TOLERANCE:
+                points[1][1] = 0.0
+
+            if points[0][0] < 0 or points[0][0] > width or points[0][1] < 0 or points[0][1] > height or \
+               points[1][0] < 0 or points[1][0] > width or points[1][1] < 0 or points[1][1] > height:
+                Colors.error(f"Shape com pontos fora da imagem em {filename}. IGNORANDO SHAPE.")
+                is_valid_shape = False
+
+            x_center = (points[0][0] + points[1][0]) / 2.0
+            y_center = (points[0][1] + points[1][1]) / 2.0
+            box_width = abs(points[1][0] - points[0][0])
+            box_height = abs(points[1][1] - points[0][1])
+
+            x_center_norm = x_center / width
+            y_center_norm = y_center / height
+            box_width_norm = box_width / width
+            box_height_norm = box_height / height
+            normalized_points = [(x_center_norm, y_center_norm), (box_width_norm, box_height_norm)]
+
             # Pula a shape se ela foi considerada inválida
             if not is_valid_shape:
                 continue
