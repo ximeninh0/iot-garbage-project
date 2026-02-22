@@ -1,5 +1,7 @@
 import os
 import json
+
+from tqdm.asyncio import tqdm
 from utils.Colors import Colors
 import shutil
 import sys
@@ -45,6 +47,10 @@ def process_interval(interval, option, batch):
 
     model = YOLO("grb-model.pt")
 
+    # Configuraçao da barra de progresso
+    progress_bar_text = f"{Colors.OKCYAN}Processando vídeo{Colors.ENDC}"
+    progress_bar = tqdm(total=interval[1] - interval[0], desc=progress_bar_text, ncols=100)
+
     i = -1
     batch_counter = 0
     for grb_dirs in os.listdir(raw_path):
@@ -67,11 +73,11 @@ def process_interval(interval, option, batch):
                     images_batch.append(image)
                     img_names.append(filename)
                     batch_counter += 1
-                elif filenumber == interval[1]:
-                    images_batch.append(image)
-                    img_names.append(filename)
-                    batch_counter += 1
                 else:
+                    if filenumber == interval[1]:
+                        images_batch.append(image)
+                        img_names.append(filename)
+                    
                     results = model.predict(source=images_batch, save=False, imgsz=640, conf=0.5, verbose=False)
 
                     for j,result in enumerate(results):
@@ -108,6 +114,7 @@ def process_interval(interval, option, batch):
                     images_batch = []
                     img_names = []
                     batch_counter = 0
+                    progress_bar.update(batch)
 
 if __name__ == "__main__":
     print("Selecione o tipo de resíduo: ")
