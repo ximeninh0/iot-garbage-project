@@ -1,4 +1,4 @@
 venv
 data/grouped
 data/dataset
-best.pt
+grb-model.pt

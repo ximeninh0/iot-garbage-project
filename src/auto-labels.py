@@ -3,6 +3,8 @@ import json
 from utils.Colors import Colors
 import shutil
 import sys
+from ultralytics import YOLO
+import cv2 
 
 def check_interval_done(interval,option):
 
@@ -26,12 +28,86 @@ def check_interval_done(interval,option):
             (interval[1] >= done_intervals[0] and interval[1] <= done_intervals[1])):
             return False
         
+    arqv_lines[option] += f" {interval[0]}-{interval[1]}"
+    with open("src\intervals-list.txt",'w') as f:
+        for line in arqv_lines:
+            f.write(f"{line}\n")
+        
     return True
 
-def process_interval(interval, option):
+def process_interval(interval, option, batch):
+    option -= 1
+    raw_path = "data/raw_dataset"
+    interval[0] = int(interval[0])
+    interval[1] = int(interval[1])
+    images_batch = []
+    img_names = []
 
+    model = YOLO("grb-model.pt")
 
+    i = -1
+    batch_counter = 0
+    for grb_dirs in os.listdir(raw_path):
+        i += 1
+        dir_path = os.path.join(raw_path,grb_dirs)
+        if i == option:
+            for filename in os.listdir(dir_path):
 
+                if filename.endswith(".json"):
+                    continue
+
+                filenumber = int(filename.split("_")[1].removesuffix(".jpg"))
+
+                if not (filenumber >= interval[0] and filenumber <= interval[1]):
+                    continue
+
+                image = cv2.imread(os.path.join(dir_path,filename))
+
+                if batch_counter < batch and filenumber != interval[1]:
+                    images_batch.append(image)
+                    img_names.append(filename)
+                    batch_counter += 1
+                elif filenumber == interval[1]:
+                    images_batch.append(image)
+                    img_names.append(filename)
+                    batch_counter += 1
+                else:
+                    results = model.predict(source=images_batch, save=False, imgsz=640, conf=0.5, verbose=False)
+
+                    for j,result in enumerate(results):
+                        result_image = cv2.imread(os.path.join(dir_path,img_names[j]))
+                        height = result_image.shape[0]
+                        width = result_image.shape[1]
+                        json_name = img_names[j].removesuffix(".jpg") + ".json"
+                        data = {
+                            "version": "5.10.1",
+                            "flags": {},
+                            "shapes": [],
+                            "imagePath": img_names[j],
+                            "imageData": None,
+                            "imageHeight": height,
+                            "imageWidth": width
+                        }
+                        classes = result.boxes.cls
+                        class_names = result.names
+                        boxes = result.boxes.xyxy
+                        for k in range(len(classes)):
+                            class_id = int(classes[k])
+                            box = boxes[k].tolist()
+                            shape = {
+                                "label": class_names[class_id],
+                                "points": [[box[0], box[1]], [box[2], box[3]]],
+                                "group_id": None,
+                                "shape_type": "rectangle",
+                                "flags": {}
+                            }
+                            data["shapes"].append(shape)
+
+                        with open(os.path.join(dir_path,json_name),"w") as f:
+                            json.dump(data,f,indent=4)
+                    images_batch = []
+                    img_names = []
+                    batch_counter = 0
 
 if __name__ == "__main__":
     print("Selecione o tipo de resíduo: ")
@@ -50,7 +126,10 @@ if __name__ == "__main__":
         Colors.error(f"O intervalo {interval[0]}-{interval[1]} tem imagens já feitas ou é inválido")
         sys.exit()
 
-    process_interval(interval, option)
+    batch = 16
+    Colors.info(f"Processando intervalo {interval[0]}-{interval[1]} do tipo {option} em batches de {batch} imagens...")
+    process_interval(interval, option, batch)
+    Colors.success(f"Intervalo {interval[0]}-{interval[1]} do tipo {option} processado com sucesso!")
 
     
 
