@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          25.32142857142859,
+          67.85714285714285
+        ],
+        [
+          227.4642857142857,
+          203.92857142857142
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_490.jpg",
+  "imageData": null,
+  "imageHeight": 205,
+  "imageWidth": 246
+}

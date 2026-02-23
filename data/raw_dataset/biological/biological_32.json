@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          18.33333333333333,
+          60.0
+        ],
+        [
+          248.66666666666666,
+          138.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_32.jpg",
+  "imageData": null,
+  "imageHeight": 192,
+  "imageWidth": 263
+}

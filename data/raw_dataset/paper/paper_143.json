@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "paper",
+      "points": [
+        [
+          508.2222222222223,
+          380.3333333333333
+        ],
+        [
+          0.0,
+          7.3462088698140064
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "paper_143.jpg",
+  "imageData": null,
+  "imageHeight": 384,
+  "imageWidth": 512
+}

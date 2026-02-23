@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          0.7598253275109244,
+          47.24017467248909
+        ],
+        [
+          511.0,
+          381.8810407258381
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_340.jpg",
+  "imageData": null,
+  "imageHeight": 384,
+  "imageWidth": 512
+}
