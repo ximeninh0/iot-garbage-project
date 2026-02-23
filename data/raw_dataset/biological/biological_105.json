@@ -1,0 +1,118 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          9.9609375,
+          53.515625
+        ],
+        [
+          84.1796875,
+          137.890625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          79.8828125,
+          80.859375
+        ],
+        [
+          149.8046875,
+          154.296875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          133.7890625,
+          37.5
+        ],
+        [
+          208.0078125,
+          108.59375
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          136.9140625,
+          115.234375
+        ],
+        [
+          184.5703125,
+          170.703125
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          38.4765625,
+          123.046875
+        ],
+        [
+          97.0703125,
+          179.6875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          87.6953125,
+          141.796875
+        ],
+        [
+          145.1171875,
+          195.703125
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_105.jpg",
+  "imageData": null,
+  "imageHeight": 225,
+  "imageWidth": 225
+}

@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "plastic",
+      "points": [
+        [
+          199.7229437229437,
+          80.31168831168831
+        ],
+        [
+          483.70562770562765,
+          382.9090909090909
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "plastic_437.jpg",
+  "imageData": null,
+  "imageHeight": 384,
+  "imageWidth": 512
+}

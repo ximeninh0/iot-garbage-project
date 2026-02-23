@@ -1,0 +1,136 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          68.18656716417912,
+          36.820895522388064
+        ],
+        [
+          163.11194029850748,
+          135.02985074626866
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          0.42537313432837853,
+          57.71641791044777
+        ],
+        [
+          77.81364789883439,
+          161.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          0.7238805970149458,
+          1.0000000000000062
+        ],
+        [
+          67.29104477611943,
+          72.94029850746269
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          68.18656716417912,
+          1.0000000000000062
+        ],
+        [
+          128.78358208955225,
+          54.13432835820896
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          152.9626865671642,
+          1.0000000000000062
+        ],
+        [
+          209.08208955223884,
+          42.194029850746276
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          249.67910447761196,
+          0.7014925373134391
+        ],
+        [
+          310.0,
+          58.645209911035934
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          232.66417910447763,
+          76.82089552238807
+        ],
+        [
+          310.0,
+          160.70051664753151
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_174.jpg",
+  "imageData": null,
+  "imageHeight": 162,
+  "imageWidth": 311
+}
