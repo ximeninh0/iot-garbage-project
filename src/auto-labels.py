@@ -10,6 +10,9 @@ import cv2
 
 def check_interval_done(interval,option):
 
+    interval[0] = int(interval[0])
+    interval[1] = int(interval[1])
+
     if interval[0] >= interval[1] or interval[1] <= interval[0]:
         return False
     
@@ -17,7 +20,7 @@ def check_interval_done(interval,option):
     option -= 1
     with open("src\intervals-list.txt",'r') as f:
         for line in f:
-            arqv_lines.append(line.split("\n")[0])
+            arqv_lines.append(line.split("\n")[0].split(": ")[1])
 
     grb_intervals_str = arqv_lines[option]
     grb_intervals = []
@@ -25,15 +28,26 @@ def check_interval_done(interval,option):
 
     for done_intervals_str in grb_intervals:
         done_intervals = []
-        done_intervals = done_intervals_str.split("-")
+        done_intervals.append(int(done_intervals_str.split("-")[0]))
+        done_intervals.append(int(done_intervals_str.split("-")[1]))
+
         if ((interval[0] >= done_intervals[0] and interval[0] <= done_intervals[1]) or
             (interval[1] >= done_intervals[0] and interval[1] <= done_intervals[1])):
             return False
         
     arqv_lines[option] += f" {interval[0]}-{interval[1]}"
     with open("src\intervals-list.txt",'w') as f:
-        for line in arqv_lines:
-            f.write(f"{line}\n")
+
+        for i,line in enumerate(arqv_lines):
+            if i == 0:
+                f.write(f"biologico: {line}\n")
+            elif i == 1: 
+                f.write(f"metal: {line}\n")
+            elif i == 2: 
+                f.write(f"papel: {line}\n")            
+            elif i == 3: 
+                f.write(f"plastico: {line}\n")
+        i += 1
         
     return True
 
@@ -42,13 +56,14 @@ def process_interval(interval, option, batch):
     raw_path = "data/raw_dataset"
     interval[0] = int(interval[0])
     interval[1] = int(interval[1])
+
     images_batch = []
     img_names = []
 
     model = YOLO("grb-model.pt")
 
     # Configuraçao da barra de progresso
-    progress_bar_text = f"{Colors.OKCYAN}Processando vídeo{Colors.ENDC}"
+    progress_bar_text = f"{Colors.OKCYAN}Processando Imagens{Colors.ENDC}"
     progress_bar = tqdm(total=interval[1] - interval[0], desc=progress_bar_text, ncols=100)
 
     i = -1
@@ -63,9 +78,9 @@ def process_interval(interval, option, batch):
                     continue
 
                 filenumber = int(filename.split("_")[1].removesuffix(".jpg"))
-
                 if not (filenumber >= interval[0] and filenumber <= interval[1]):
                     continue
+                progress_bar.update(1)
 
                 image = cv2.imread(os.path.join(dir_path,filename))
 
@@ -114,7 +129,6 @@ def process_interval(interval, option, batch):
                     images_batch = []
                     img_names = []
                     batch_counter = 0
-                    progress_bar.update(batch)
 
 if __name__ == "__main__":
     print("Selecione o tipo de resíduo: ")
@@ -123,7 +137,6 @@ if __name__ == "__main__":
     print("[3] paper")
     print("[4] plastic")
     option = int(input())
-
     print("Insira o intervalo das imagens (ex:200-300, 550-750...)")
     interval_str = input()
 
