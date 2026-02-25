@@ -1,0 +1,118 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "plastic",
+      "points": [
+        [
+          95.05877685546875,
+          12.59096908569336
+        ],
+        [
+          152.6647491455078,
+          93.13346099853516
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          167.42068481445312,
+          9.569229125976562
+        ],
+        [
+          227.3255157470703,
+          101.53783416748047
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          23.69587628865979,
+          21.005154639175256
+        ],
+        [
+          79.88144329896907,
+          88.01546391752578
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          26.530927835051543,
+          98.58247422680412
+        ],
+        [
+          88.12886597938144,
+          178.479381443299
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          102.04639175257732,
+          113.01546391752578
+        ],
+        [
+          153.0773195876289,
+          178.99484536082477
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          173.18041237113403,
+          113.27319587628867
+        ],
+        [
+          222.4072164948454,
+          178.73711340206188
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "plastic_891.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 251
+}

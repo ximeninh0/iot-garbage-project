@@ -1,0 +1,26 @@
+{
+    "version": "5.10.1",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "plastic",
+            "points": [
+                [
+                    251.4259796142578,
+                    19.591638565063477
+                ],
+                [
+                    408.0596618652344,
+                    371.632568359375
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "plastic_615.jpg",
+    "imageData": null,
+    "imageHeight": 384,
+    "imageWidth": 512
+}
