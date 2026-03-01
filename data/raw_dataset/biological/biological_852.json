@@ -1,0 +1,154 @@
+{
+    "version": "5.10.1",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "biological",
+            "points": [
+                [
+                    156.09490966796875,
+                    3.9763495922088623
+                ],
+                [
+                    241.12734985351562,
+                    75.58631896972656
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    168.407470703125,
+                    65.30602264404297
+                ],
+                [
+                    245.7961883544922,
+                    143.68202209472656
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    105.03144073486328,
+                    89.27979278564453
+                ],
+                [
+                    180.864013671875,
+                    149.55862426757812
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    36.75926971435547,
+                    24.03209114074707
+                ],
+                [
+                    99.36943054199219,
+                    96.16093444824219
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    239.41778564453125,
+                    3.4845540523529053
+                ],
+                [
+                    299.99261474609375,
+                    65.01824188232422
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    239.45245361328125,
+                    24.140193939208984
+                ],
+                [
+                    299.97235107421875,
+                    160.72296142578125
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    117.21927642822266,
+                    1.406793475151062
+                ],
+                [
+                    179.37562561035156,
+                    71.13272094726562
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    93.04032135009766,
+                    57.10112380981445
+                ],
+                [
+                    135.46463012695312,
+                    97.87533569335938
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    47.954586029052734,
+                    83.26809692382812
+                ],
+                [
+                    119.9604721069336,
+                    138.03041076660156
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "biological_852.jpg",
+    "imageData": null,
+    "imageHeight": 168,
+    "imageWidth": 300
+}
