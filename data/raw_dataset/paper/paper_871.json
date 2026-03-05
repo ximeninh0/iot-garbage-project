@@ -1,0 +1,100 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "paper",
+      "points": [
+        [
+          76.74550898203591,
+          22.92215568862276
+        ],
+        [
+          215.9670658682635,
+          167.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          0.39820359281436657,
+          1.3652694610778453
+        ],
+        [
+          104.58982035928143,
+          70.82634730538922
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          194.1107784431138,
+          9.449101796407186
+        ],
+        [
+          298.0,
+          154.8343055268773
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          1.2964071856287378,
+          74.11976047904191
+        ],
+        [
+          73.2417355764661,
+          167.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          96.80538922155688,
+          0.7664670658682642
+        ],
+        [
+          214.17065868263475,
+          28.01197604790419
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "paper_871.jpg",
+  "imageData": null,
+  "imageHeight": 168,
+  "imageWidth": 299
+}
