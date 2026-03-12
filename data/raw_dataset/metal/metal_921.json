@@ -1,0 +1,118 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          199.61389961389963,
+          32.93822393822394
+        ],
+        [
+          268.1467181467182,
+          143.94208494208493
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          209.65250965250965,
+          160.15830115830116
+        ],
+        [
+          159.65250965250965,
+          60.351351351351354
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          148.64864864864865,
+          3.5945945945945956
+        ],
+        [
+          211.7760617760618,
+          63.82625482625483
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          104.63320463320464,
+          94.13513513513514
+        ],
+        [
+          158.3011583011583,
+          146.25868725868727
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          104.24710424710425,
+          159.1930501930502
+        ],
+        [
+          56.75675675675676,
+          59.965250965250966
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          85.32818532818533,
+          7.841698841698843
+        ],
+        [
+          150.1930501930502,
+          97.41698841698843
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_921.jpg",
+  "imageData": null,
+  "imageHeight": 168,
+  "imageWidth": 300
+}

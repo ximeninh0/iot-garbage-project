@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+biologico: 1-500 501-1000
+metal: 1-530 531-600 601-1001
+papel: 1-535 536-600 601-1000
+plastico: 1-514 515-530
+biologico: 1-500
+=======
 biologico: 1-500
 metal: 1-530 531-600
 papel: 1-535 536-600 601-1000
 plastico: 1-514 515-530
 biologico: 1-500 501-1000
+>>>>>>> development
 metal: 1-530 531-600
 papel: 1-535 536-600
 plastico: 1-514 515-530 531-1000

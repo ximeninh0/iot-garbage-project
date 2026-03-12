@@ -1,0 +1,262 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          57.25494071146245,
+          150.08300395256916
+        ],
+        [
+          97.37351778656127,
+          86.64426877470356
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          97.17588932806323,
+          109.56916996047431
+        ],
+        [
+          155.27865612648222,
+          152.45454545454544
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          148.5592885375494,
+          112.53359683794466
+        ],
+        [
+          185.12055335968378,
+          153.6403162055336
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          182.15612648221344,
+          160.16205533596838
+        ],
+        [
+          218.7173913043478,
+          131.50592885375494
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          215.75296442687747,
+          105.22134387351778
+        ],
+        [
+          239.86363636363635,
+          153.24505928853753
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          237.88735177865613,
+          147.9090909090909
+        ],
+        [
+          274.8438735177865,
+          84.27272727272727
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          197.57114624505928,
+          39.80632411067193
+        ],
+        [
+          266.74110671936756,
+          85.06324110671936
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          171.87944664031622,
+          80.91304347826087
+        ],
+        [
+          221.6818181818182,
+          129.13438735177866
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          140.2588932806324,
+          92.7707509881423
+        ],
+        [
+          171.6818181818182,
+          114.70750988142292
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          108.83596837944664,
+          65.89328063241106
+        ],
+        [
+          156.8596837944664,
+          112.33596837944664
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          140.2588932806324,
+          34.4703557312253
+        ],
+        [
+          198.5592885375494,
+          89.80632411067194
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          114.56719367588933,
+          6.011857707509884
+        ],
+        [
+          148.36166007905138,
+          51.07114624505928
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          80.57509881422925,
+          36.051383399209485
+        ],
+        [
+          121.28656126482213,
+          66.88142292490119
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          114.17193675889327,
+          42.573122529644266
+        ],
+        [
+          150.33794466403162,
+          73.40316205533597
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_974.jpg",
+  "imageData": null,
+  "imageHeight": 164,
+  "imageWidth": 307
+}

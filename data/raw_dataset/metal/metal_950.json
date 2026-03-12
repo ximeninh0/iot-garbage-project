@@ -1,0 +1,118 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          60.91082164328658,
+          127.59318637274549
+        ],
+        [
+          8.005010020040089,
+          33.60521042084168
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          59.70841683366734,
+          34.2064128256513
+        ],
+        [
+          106.60220440881764,
+          129.79759519038078
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          108.2054108216433,
+          126.39078156312624
+        ],
+        [
+          155.09919839679358,
+          34.607214428857716
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          157.90480961923848,
+          34.40681362725451
+        ],
+        [
+          202.1933867735471,
+          126.59118236472946
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          204.39779559118236,
+          125.78957915831663
+        ],
+        [
+          253.09519038076152,
+          33.60521042084168
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          254.69839679358716,
+          31.2004008016032
+        ],
+        [
+          300.9909819639279,
+          128.99599198396794
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_950.jpg",
+  "imageData": null,
+  "imageHeight": 162,
+  "imageWidth": 311
+}

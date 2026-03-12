@@ -1,0 +1,244 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          38.79881656804734,
+          73.13116370808679
+        ],
+        [
+          93.63116370808679,
+          135.65581854043393
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          94.42011834319527,
+          163.66370808678502
+        ],
+        [
+          14.932938856015785,
+          118.69329388560158
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          44.321499013806715,
+          41.37573964497042
+        ],
+        [
+          100.33727810650888,
+          70.96153846153847
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          92.8422090729783,
+          62.677514792899416
+        ],
+        [
+          150.04142011834318,
+          135.65581854043393
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          100.33727810650888,
+          27.569033530571996
+        ],
+        [
+          157.930966469428,
+          57.74654832347141
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          147.4773175542406,
+          49.659763313609474
+        ],
+        [
+          200.7317554240631,
+          133.88067061143985
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          160.10059171597632,
+          19.482248520710066
+        ],
+        [
+          228.54240631163708,
+          49.26528599605523
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          198.36489151873766,
+          40.1923076923077
+        ],
+        [
+          254.18343195266272,
+          129.5414201183432
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          120.25838264299803,
+          163.66370808678502
+        ],
+        [
+          277.2603550295858,
+          133.4861932938856
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          265.8205128205128,
+          83.78205128205128
+        ],
+        [
+          304.28205128205127,
+          142.36193293885603
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          227.16173570019723,
+          0.9418145956607562
+        ],
+        [
+          305.0,
+          123.48316267469538
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          39.78500986193295,
+          80.62623274161736
+        ],
+        [
+          0.14003944773176258,
+          49.46252465483235
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          38.4043392504931,
+          83.19033530571993
+        ],
+        [
+          0.5345167652860032,
+          104.68934911242604
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_887.jpg",
+  "imageData": null,
+  "imageHeight": 165,
+  "imageWidth": 306
+}

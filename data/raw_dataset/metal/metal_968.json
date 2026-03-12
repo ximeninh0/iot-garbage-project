@@ -1,0 +1,208 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          29.724938875305625,
+          33.53911980440098
+        ],
+        [
+          110.65403422982885,
+          91.97432762836186
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          1.6075794621026915,
+          85.61735941320295
+        ],
+        [
+          68.11124694376528,
+          135.739608801956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          68.6002444987775,
+          189.77383863080684
+        ],
+        [
+          2.8300733496332526,
+          134.0281173594132
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          65.66625916870416,
+          180.48288508557457
+        ],
+        [
+          137.059902200489,
+          130.60513447432763
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          135.34841075794623,
+          132.0721271393643
+        ],
+        [
+          64.93276283618582,
+          79.74938875305624
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          46.839853300733495,
+          1.75427872860636
+        ],
+        [
+          115.5440097799511,
+          54.56601466992666
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          113.3435207823961,
+          9.822738386308073
+        ],
+        [
+          182.0476772616137,
+          33.05012224938876
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          110.65403422982885,
+          30.116136919315405
+        ],
+        [
+          184.98166259168704,
+          83.17237163814181
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          201.6075794621027,
+          130.1161369193154
+        ],
+        [
+          132.65892420537898,
+          75.1039119804401
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          136.32640586797066,
+          130.84963325183372
+        ],
+        [
+          231.92542787286067,
+          210.80073349633253
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          228.74694376528117,
+          102.48777506112471
+        ],
+        [
+          173.49022004889977,
+          47.96454767726162
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_968.jpg",
+  "imageData": null,
+  "imageHeight": 215,
+  "imageWidth": 235
+}

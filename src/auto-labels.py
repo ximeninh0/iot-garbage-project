@@ -26,6 +26,10 @@ def check_interval_done(interval,option):
     grb_intervals = []
     grb_intervals = grb_intervals_str.split(" ")
 
+    print("Intervalo pedido:", interval)
+    print("Linha do arquivo:", grb_intervals_str)
+    print("Lista de intervalos:", grb_intervals)
+
     for done_intervals_str in grb_intervals:
         done_intervals = []
         done_intervals.append(int(done_intervals_str.split("-")[0]))
@@ -59,7 +63,9 @@ def process_interval(interval, option, batch):
     images_batch = []
     img_names = []
 
-    model = YOLO("grb-model.pt")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    MODEL_PATH = os.path.join(BASE_DIR, "best.pt")
+    model = YOLO(MODEL_PATH)
 
     # Configuraçao da barra de progresso
     progress_bar_text = f"{Colors.OKCYAN}Processando Imagens{Colors.ENDC}"
@@ -161,8 +167,14 @@ if __name__ == "__main__":
     batch = 16
     Colors.info(f"Processando intervalo {interval[0]}-{interval[1]} do tipo {option} em batches de {batch} imagens...")
     process_interval(interval, option_str, batch)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> development
     Colors.success(f"Intervalo {interval[0]}-{interval[1]} do tipo {option} processado com sucesso!")
 
     
 
-
+=======
+    Colors.success(f"Intervalo {interval[0]}-{interval[1]} do tipo {option} processado com sucesso!")
+>>>>>>> 14ffa88 (fix: auto-labels fix)
