@@ -1,0 +1,46 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          18.284543325526947,
+          136.60655737704917
+        ],
+        [
+          133.5070257611241,
+          35.20140515222484
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          94.86533957845432,
+          145.7400468384075
+        ],
+        [
+          223.90515222482435,
+          32.85948477751758
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_838.jpg",
+  "imageData": null,
+  "imageHeight": 206,
+  "imageWidth": 245
+}

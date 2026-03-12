@@ -1,0 +1,316 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          238.1237006237006,
+          165.82432432432432
+        ],
+        [
+          166.3981288981289,
+          113.84927234927235
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          146.23180873180874,
+          173.72453222453223
+        ],
+        [
+          74.71413721413722,
+          120.91787941787942
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          0.2858627858628111,
+          131.72869022869025
+        ],
+        [
+          54.91955894228623,
+          182.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          16.70997920997923,
+          81.83264033264034
+        ],
+        [
+          90.51455301455303,
+          132.97609147609148
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          41.034303534303554,
+          89.73284823284824
+        ],
+        [
+          0.2858627858628111,
+          44.82640332640334
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          12.551975051975077,
+          46.07380457380458
+        ],
+        [
+          76.5852390852391,
+          10.10706860706862
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          0.2858627858628111,
+          22.373180873180885
+        ],
+        [
+          31.88669438669441,
+          0.7515592515592652
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          83.65384615384616,
+          5.325363825363839
+        ],
+        [
+          147.06340956340958,
+          37.54989604989606
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          131.26299376299377,
+          32.56029106029107
+        ],
+        [
+          197.16735966735968,
+          71.02182952182953
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          153.3004158004158,
+          32.76819126819128
+        ],
+        [
+          215.46257796257797,
+          0.7515592515592652
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          217.33367983367984,
+          29.64968814968816
+        ],
+        [
+          274.0,
+          0.8013797013797266
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          271.38773388773393,
+          64.9927234927235
+        ],
+        [
+          210.26507276507277,
+          26.115384615384627
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          188.2276507276507,
+          66.24012474012474
+        ],
+        [
+          258.497920997921,
+          111.97817047817048
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          251.4293139293139,
+          100.75155925155926
+        ],
+        [
+          274.0,
+          146.0981194481194
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          232.3024948024948,
+          154.3898128898129
+        ],
+        [
+          273.7177754677755,
+          182.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          175.12993762993761,
+          120.502079002079
+        ],
+        [
+          106.73076923076923,
+          73.30873180873182
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          120.45218295218297,
+          82.24844074844076
+        ],
+        [
+          51.01351351351354,
+          39.420997920997934
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_830.jpg",
+  "imageData": null,
+  "imageHeight": 183,
+  "imageWidth": 275
+}

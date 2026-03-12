@@ -1,0 +1,42 @@
+{
+    "version": "5.10.1",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "metal",
+            "points": [
+                [
+                    244.795166015625,
+                    45.10747146606445
+                ],
+                [
+                    512.0,
+                    382.6842346191406
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "paper",
+            "points": [
+                [
+                    245.451904296875,
+                    46.03095626831055
+                ],
+                [
+                    511.8314514160156,
+                    382.1480407714844
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "metal_655.jpg",
+    "imageData": null,
+    "imageHeight": 384,
+    "imageWidth": 512
+}

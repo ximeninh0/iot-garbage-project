@@ -1,0 +1,118 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          0.746803069053712,
+          85.77365728900256
+        ],
+        [
+          77.00081869744531,
+          224.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          145.24808184143222,
+          60.19820971867007
+        ],
+        [
+          74.57347762347521,
+          224.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          151.38618925831202,
+          43.06265984654731
+        ],
+        [
+          223.0,
+          218.6809801812875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          18.138107416879805,
+          32.576726342711
+        ],
+        [
+          93.07416879795397,
+          78.10102301790282
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          98.18925831202046,
+          7.001278772378517
+        ],
+        [
+          157.26854219948848,
+          63.01150895140665
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          220.69565217391306,
+          44.85294117647059
+        ],
+        [
+          166.15855324343175,
+          0.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_685.jpg",
+  "imageData": null,
+  "imageHeight": 225,
+  "imageWidth": 224
+}

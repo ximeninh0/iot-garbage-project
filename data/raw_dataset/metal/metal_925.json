@@ -1,0 +1,82 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          241.28440366972472,
+          182.53669724770643
+        ],
+        [
+          162.8440366972477,
+          78.86697247706421
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          115.13761467889907,
+          5.472477064220186
+        ],
+        [
+          207.79816513761466,
+          110.05963302752292
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          157.33944954128438,
+          182.9954128440367
+        ],
+        [
+          83.25688073394494,
+          76.57339449541284
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          5.963302752293572,
+          92.85779816513761
+        ],
+        [
+          111.46788990825686,
+          195.38073394495413
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "metal_925.jpg",
+  "imageData": null,
+  "imageHeight": 202,
+  "imageWidth": 250
+}
