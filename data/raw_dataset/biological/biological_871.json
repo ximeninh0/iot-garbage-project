@@ -1,0 +1,234 @@
+{
+    "version": "5.10.1",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "biological",
+            "points": [
+                [
+                    0.0,
+                    21.990135192871094
+                ],
+                [
+                    63.38784408569336,
+                    115.26801300048828
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    145.7541046142578,
+                    78.45806121826172
+                ],
+                [
+                    197.3082733154297,
+                    130.25413513183594
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    95.8298110961914,
+                    0.0
+                ],
+                [
+                    192.21792602539062,
+                    58.92234420776367
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    84.75176239013672,
+                    47.14860153198242
+                ],
+                [
+                    139.18756103515625,
+                    99.81709289550781
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    255.51461791992188,
+                    91.80973052978516
+                ],
+                [
+                    299.0,
+                    167.0320587158203
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    43.95449447631836,
+                    2.2230329513549805
+                ],
+                [
+                    105.13802337646484,
+                    61.969913482666016
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    279.296875,
+                    22.10808753967285
+                ],
+                [
+                    299.0,
+                    94.75623321533203
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    66.73590087890625,
+                    131.66090393066406
+                ],
+                [
+                    101.21995544433594,
+                    165.6583251953125
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    99.7957992553711,
+                    96.55181121826172
+                ],
+                [
+                    202.0863800048828,
+                    167.14320373535156
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    175.14649963378906,
+                    38.34624481201172
+                ],
+                [
+                    214.04978942871094,
+                    76.84288024902344
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    188.97027587890625,
+                    21.538787841796875
+                ],
+                [
+                    252.6111297607422,
+                    151.74432373046875
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    209.43650817871094,
+                    34.79982376098633
+                ],
+                [
+                    280.4830627441406,
+                    163.4361572265625
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    0.9443302750587463,
+                    138.7560577392578
+                ],
+                [
+                    43.30104064941406,
+                    167.38658142089844
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "biological",
+            "points": [
+                [
+                    249.79638671875,
+                    0.6145808696746826
+                ],
+                [
+                    298.9880065917969,
+                    39.74480056762695
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "biological_871.jpg",
+    "imageData": null,
+    "imageHeight": 168,
+    "imageWidth": 299
+}

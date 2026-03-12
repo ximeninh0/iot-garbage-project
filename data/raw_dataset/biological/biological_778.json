@@ -1,0 +1,208 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          135.68695068359375,
+          1.767917275428772
+        ],
+        [
+          238.05091857910156,
+          59.94482421875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          83.74713134765625,
+          107.0914306640625
+        ],
+        [
+          257.226806640625,
+          177.01919555664062
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          197.1735382080078,
+          49.643592834472656
+        ],
+        [
+          274.7819519042969,
+          120.81958770751953
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          123.08827209472656,
+          36.18106460571289
+        ],
+        [
+          199.59771728515625,
+          110.8335952758789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          17.278505325317383,
+          80.84563446044922
+        ],
+        [
+          148.94992065429688,
+          152.89776611328125
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          0.0,
+          56.66059494018555
+        ],
+        [
+          39.857112884521484,
+          137.34274291992188
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          0.0,
+          135.2341766357422
+        ],
+        [
+          77.46385192871094,
+          176.78684997558594
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          23.487261146496813,
+          52.009554140127385
+        ],
+        [
+          185.27070063694268,
+          117.61464968152866
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          72.53184713375796,
+          24.93949044585987
+        ],
+        [
+          126.03503184713375,
+          80.03503184713377
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          41.32165605095542,
+          10.608280254777071
+        ],
+        [
+          138.77388535031847,
+          45.958598726114644
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          1.8312101910828034,
+          37.67834394904458
+        ],
+        [
+          72.53184713375796,
+          79.39808917197452
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_778.jpg",
+  "imageData": null,
+  "imageHeight": 183,
+  "imageWidth": 275
+}

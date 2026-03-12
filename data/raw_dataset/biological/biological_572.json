@@ -1,0 +1,208 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          43.792388916015625,
+          26.097200393676758
+        ],
+        [
+          127.63603973388672,
+          109.46361541748047
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          174.36402893066406,
+          61.956298828125
+        ],
+        [
+          254.04811096191406,
+          144.45765686035156
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          121.22066497802734,
+          2.131730318069458
+        ],
+        [
+          193.3489227294922,
+          74.41151428222656
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          91.2907485961914,
+          97.805908203125
+        ],
+        [
+          165.8542938232422,
+          169.27012634277344
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          209.58363342285156,
+          0.0
+        ],
+        [
+          266.0,
+          81.89007568359375
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          0.011583543382585049,
+          32.04582214355469
+        ],
+        [
+          48.667720794677734,
+          129.82244873046875
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          192.6334991455078,
+          143.77780151367188
+        ],
+        [
+          264.7161865234375,
+          188.9782257080078
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          248.79759216308594,
+          82.48168182373047
+        ],
+        [
+          266.0,
+          185.36122131347656
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          30.050724029541016,
+          152.78280639648438
+        ],
+        [
+          118.49308776855469,
+          190.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          12.72748851776123,
+          108.83300018310547
+        ],
+        [
+          86.37372589111328,
+          173.98968505859375
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          3.4620462046204636,
+          0.6105610561056181
+        ],
+        [
+          91.58085808580857,
+          37.24422442244225
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_572.jpg",
+  "imageData": null,
+  "imageHeight": 190,
+  "imageWidth": 266
+}
