@@ -1,0 +1,82 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "paper",
+      "points": [
+        [
+          159.4745222929936,
+          33.85668789808917
+        ],
+        [
+          274.843505859375,
+          181.32009887695312
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          112.97770700636941,
+          11.245222929936306
+        ],
+        [
+          255.33439490445858,
+          151.69108280254778
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          57.245222929936304,
+          19.20700636942675
+        ],
+        [
+          174.44267515923565,
+          172.39171974522293
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          0.8757961783439505,
+          8.697452229299364
+        ],
+        [
+          112.97770700636941,
+          180.9904458598726
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "paper_867.jpg",
+  "imageData": null,
+  "imageHeight": 183,
+  "imageWidth": 275
+}

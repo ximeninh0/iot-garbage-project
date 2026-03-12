@@ -1,0 +1,46 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "plastical",
+      "points": [
+        [
+          82.98100280761719,
+          72.4424819946289
+        ],
+        [
+          409.2911071777344,
+          322.0221252441406
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "paper",
+      "points": [
+        [
+          89.33333333333333,
+          72.66666666666667
+        ],
+        [
+          409.70880126953125,
+          321.859619140625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "paper_611.jpg",
+  "imageData": null,
+  "imageHeight": 384,
+  "imageWidth": 512
+}
