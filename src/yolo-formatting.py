@@ -23,20 +23,28 @@ os.makedirs(GRP_DIR + "/labels", exist_ok=True)
 
 def group_images_with_label():
     count = 0
+    background_count = 0
     for root, dirs, files in os.walk(DIR):
         for filename in files:
             if filename.endswith(".json"):
                 continue
+            
+            if os.path.basename(root) == "background":
+                label_name = filename.removesuffix(".jpg") + ".txt"
+                shutil.copy(os.path.join(root,filename),os.path.join(GRP_DIR + "/images",filename))
+                with open(os.path.join(GRP_DIR + "/labels", label_name), "w") as f:
+                    f.write("")
+                background_count += 1
+            else:
+                imgLabel = filename.removesuffix(".jpg") + ".json"
+                if imgLabel not in files:
+                    continue
 
-            imgLabel = filename.removesuffix(".jpg") + ".json"
-            if imgLabel not in files:
-                continue
+                shutil.copy(os.path.join(root,filename),os.path.join(GRP_DIR + "/images",filename))
+                shutil.copy(os.path.join(root,imgLabel),os.path.join(GRP_DIR + "/labels",imgLabel))
+                count += 1
 
-            shutil.copy(os.path.join(root,filename),os.path.join(GRP_DIR + "/images",filename))
-            shutil.copy(os.path.join(root,imgLabel),os.path.join(GRP_DIR + "/labels",imgLabel))
-            count += 1
-
-    Colors.success(f"{count} Imagens com rótulos no total!")
+    Colors.success(f"{count} Imagens com rótulos no total e {background_count} backgrounds")
 
 def convert_segmentation_to_bbx(points):
     x_coords = [p[0] for p in points]
@@ -51,7 +59,7 @@ def convert_segmentation_to_bbx(points):
 
 def convert_jsons_to_txts(LABELS_DIR):
     for filename in os.listdir(LABELS_DIR):
-        if filename.endswith(".jpg"):
+        if filename.endswith(".jpg") or filename.endswith(".txt"):
             continue
         with open(os.path.join(LABELS_DIR, filename), 'r') as f:
             data = json.load(f)
