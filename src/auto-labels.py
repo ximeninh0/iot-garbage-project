@@ -162,3 +162,7 @@ if __name__ == "__main__":
     Colors.info(f"Processando intervalo {interval[0]}-{interval[1]} do tipo {option} em batches de {batch} imagens...")
     process_interval(interval, option_str, batch)
     Colors.success(f"Intervalo {interval[0]}-{interval[1]} do tipo {option} processado com sucesso!")
+
+    
+
+

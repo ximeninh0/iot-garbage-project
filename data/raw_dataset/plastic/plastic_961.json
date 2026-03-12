@@ -1,0 +1,82 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "plastic",
+      "points": [
+        [
+          19.315144766147,
+          12.678173719376392
+        ],
+        [
+          60.29510022271715,
+          152.54454342984408
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          87.68930957683742,
+          19.136971046770604
+        ],
+        [
+          139.58240534521158,
+          150.0946547884187
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          157.84521158129178,
+          41.4086859688196
+        ],
+        [
+          219.5378619153675,
+          154.326280623608
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastic",
+      "points": [
+        [
+          235.57349665924278,
+          69.24832962138085
+        ],
+        [
+          296.3752783964365,
+          156.7761692650334
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "plastic_961.jpg",
+  "imageData": null,
+  "imageHeight": 165,
+  "imageWidth": 305
+}
