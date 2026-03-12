@@ -1,0 +1,208 @@
+{
+  "version": "5.11.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          210.1284637451172,
+          108.20171356201172
+        ],
+        [
+          274.4955749511719,
+          174.83351135253906
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          91.12384796142578,
+          47.72297668457031
+        ],
+        [
+          127.72323608398438,
+          83.23236846923828
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          0.0,
+          8.507689476013184
+        ],
+        [
+          38.64854049682617,
+          51.91856002807617
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          8.794623374938965,
+          140.1162109375
+        ],
+        [
+          47.392330169677734,
+          173.76002502441406
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          64.75105285644531,
+          90.28617095947266
+        ],
+        [
+          197.7137451171875,
+          179.86705017089844
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          131.00665283203125,
+          24.042280197143555
+        ],
+        [
+          209.03289794921875,
+          103.85921478271484
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          165.32980346679688,
+          4.366262912750244
+        ],
+        [
+          224.27194213867188,
+          61.21023178100586
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          32.290245056152344,
+          77.24986267089844
+        ],
+        [
+          80.43328857421875,
+          135.87892150878906
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          215.95201110839844,
+          41.77290344238281
+        ],
+        [
+          265.1280517578125,
+          93.89385223388672
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          4.442862510681152,
+          6.694814205169678
+        ],
+        [
+          81.33634948730469,
+          91.83119201660156
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "biological",
+      "points": [
+        [
+          91.64012738853503,
+          10.926751592356688
+        ],
+        [
+          119.34713375796179,
+          34.4936305732484
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "biological_764.jpg",
+  "imageData": null,
+  "imageHeight": 183,
+  "imageWidth": 275
+}

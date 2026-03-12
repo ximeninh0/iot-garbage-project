@@ -1,0 +1,26 @@
+{
+    "version": "5.10.1",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "biological",
+            "points": [
+                [
+                    0.3715674877166748,
+                    2.302210807800293
+                ],
+                [
+                    181.9845733642578,
+                    269.32183837890625
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "plastic_879.jpg",
+    "imageData": null,
+    "imageHeight": 270,
+    "imageWidth": 187
+}

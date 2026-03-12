@@ -18,7 +18,7 @@ def check_interval_done(interval,option):
     
     arqv_lines = []
     option -= 1
-    with open("src\intervals-list.txt",'r') as f:
+    with open("src/intervals-list.txt",'r') as f:
         for line in f:
             arqv_lines.append(line.split("\n")[0].split(": ")[1])
 
@@ -36,7 +36,7 @@ def check_interval_done(interval,option):
             return False
         
     arqv_lines[option] += f" {interval[0]}-{interval[1]}"
-    with open("src\intervals-list.txt",'w') as f:
+    with open("src/intervals-list.txt",'w') as f:
 
         for i,line in enumerate(arqv_lines):
             if i == 0:
@@ -52,7 +52,6 @@ def check_interval_done(interval,option):
     return True
 
 def process_interval(interval, option, batch):
-    option -= 1
     raw_path = "data/raw_dataset"
     interval[0] = int(interval[0])
     interval[1] = int(interval[1])
@@ -71,7 +70,7 @@ def process_interval(interval, option, batch):
     for grb_dirs in os.listdir(raw_path):
         i += 1
         dir_path = os.path.join(raw_path,grb_dirs)
-        if i == option:
+        if grb_dirs == option:
             for filename in os.listdir(dir_path):
 
                 if filename.endswith(".json"):
@@ -137,6 +136,19 @@ if __name__ == "__main__":
     print("[3] paper")
     print("[4] plastic")
     option = int(input())
+    option_str = ""
+    match option:
+        case 1:
+            option_str = "biological"
+        case 2:
+            option_str = "metal"
+        case 3:
+            option_str = "paper"
+        case 4:
+            option_str = "plastic"
+        case _:
+            Colors.error("Opção inválida")
+            sys.exit()
     print("Insira o intervalo das imagens (ex:200-300, 550-750...)")
     interval_str = input()
 
@@ -148,7 +160,7 @@ if __name__ == "__main__":
 
     batch = 16
     Colors.info(f"Processando intervalo {interval[0]}-{interval[1]} do tipo {option} em batches de {batch} imagens...")
-    process_interval(interval, option, batch)
+    process_interval(interval, option_str, batch)
     Colors.success(f"Intervalo {interval[0]}-{interval[1]} do tipo {option} processado com sucesso!")
 
     

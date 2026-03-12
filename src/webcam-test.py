@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-model = YOLO('grb-model.pt')
+model = YOLO('grb-model-n.pt')
 
 cap = cv2.VideoCapture(0)
 
