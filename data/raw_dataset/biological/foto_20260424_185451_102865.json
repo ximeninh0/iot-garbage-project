@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biologico",
+      "points": [
+        [
+          87.75956284153006,
+          210.21857923497268
+        ],
+        [
+          539.1256830601093,
+          0.38251366120221053
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260424_185451_102865.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

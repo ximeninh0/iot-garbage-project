@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "metal",
+      "points": [
+        [
+          142.95081967213116,
+          132.62295081967213
+        ],
+        [
+          353.33333333333337,
+          374.1530054644809
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260424_185902_495839.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

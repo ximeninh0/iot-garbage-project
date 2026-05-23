@@ -1,0 +1,82 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biologico",
+      "points": [
+        [
+          299.2349726775956,
+          476.8852459016394
+        ],
+        [
+          0.0,
+          192.9396513900523
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          475.1912568306011,
+          159.94535519125685
+        ],
+        [
+          559.344262295082,
+          210.21857923497268
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          379.5628415300546,
+          157.75956284153006
+        ],
+        [
+          317.26775956284155,
+          107.48633879781423
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastico",
+      "points": [
+        [
+          192.13114754098362,
+          105.30054644808746
+        ],
+        [
+          21.092896174863398,
+          81.25683060109291
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260424_191829_770480.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

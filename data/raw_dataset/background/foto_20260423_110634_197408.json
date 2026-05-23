@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "papel",
+      "points": [
+        [
+          582.8415300546449,
+          478.5245901639345
+        ],
+        [
+          1.9672131147541023,
+          120.60109289617489
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260423_110634_197408.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

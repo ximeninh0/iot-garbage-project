@@ -1,0 +1,46 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "plastico",
+      "points": [
+        [
+          109.61748633879782,
+          220.05464480874318
+        ],
+        [
+          274.0983606557377,
+          325.51912568306017
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "plastico",
+      "points": [
+        [
+          187.21311475409837,
+          141.36612021857925
+        ],
+        [
+          322.73224043715845,
+          228.2513661202186
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260424_185555_542824.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

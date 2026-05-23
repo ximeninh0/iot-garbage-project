@@ -1,0 +1,28 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "plastico",
+      "points": [
+        [
+          637.4863387978143,
+          477.97814207650276
+        ],
+        [
+          1.4207650273224175,
+          2.0218579234972927
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260427_120122_410183.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

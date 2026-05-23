@@ -1,0 +1,46 @@
+{
+  "version": "5.11.2",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biologico",
+      "points": [
+        [
+          310.7103825136612,
+          170.87431693989072
+        ],
+        [
+          638.4688524590164,
+          479.00000000000006
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "metal",
+      "points": [
+        [
+          189.94535519125682,
+          439.1803278688525
+        ],
+        [
+          283.38797814207646,
+          271.96721311475414
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260424_190024_522404.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}
