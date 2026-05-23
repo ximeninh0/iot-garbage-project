@@ -1,0 +1,28 @@
+{
+  "version": "5.10.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "biological",
+      "points": [
+        [
+          439.42857142857144,
+          1.1428571428571428
+        ],
+        [
+          638.8571428571429,
+          170.28571428571428
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260521_202548_033386.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

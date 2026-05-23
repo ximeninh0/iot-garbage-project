@@ -1,0 +1,28 @@
+{
+  "version": "5.10.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "paper",
+      "points": [
+        [
+          274.28571428571433,
+          211.42857142857144
+        ],
+        [
+          622.2857142857143,
+          477.1428571428571
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "foto_20260520_184757_093121.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+}

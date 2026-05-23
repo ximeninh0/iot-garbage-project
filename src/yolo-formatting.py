@@ -11,8 +11,15 @@ TOLERANCE = 1e-6
 
 labels = {
     "biological": 0,
+    "bio": 0,
+    "biologico": 0,
+
     "plastic": 1,
+    "plastico": 1,
+
     "paper": 2,
+    "papel": 2,
+
     "metal": 3
 }
 
